@@ -346,8 +346,7 @@
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>0</stabilizeAtStartup>
-      <setpoint layer="1" temperature="230"/>
-      <setpoint layer="2" temperature="220"/>
+      <setpoint layer="1" temperature="245"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
@@ -367,10 +366,10 @@
       <width>0.4</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1.4</retractionDistance>
+      <retractionDistance>.9</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
-      <retractionSpeed>2100</retractionSpeed>
+      <retractionSpeed>1800</retractionSpeed>
       <useCoasting>1</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>0</useWipe>
