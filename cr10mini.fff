@@ -307,14 +307,13 @@
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>0</stabilizeAtStartup>
-      <setpoint layer="1" temperature="265"/>
-      <setpoint layer="2" temperature="260"/>
+      <setpoint layer="1" temperature="255"/>
     </temperatureController>
     <temperatureController name="Heated Bed">
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>1</isHeatedBed>
       <stabilizeAtStartup>0</stabilizeAtStartup>
-      <setpoint layer="1" temperature="90"/>
+      <setpoint layer="1" temperature="80"/>
     </temperatureController>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
@@ -328,7 +327,7 @@
       <width>0.4</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>1</retractionDistance>
+      <retractionDistance>1.20</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>1500</retractionSpeed>
@@ -337,7 +336,21 @@
       <useWipe>1</useWipe>
       <wipeDistance>0.2</wipeDistance>
     </extruder>
-    <gcodeZoffset>0</gcodeZoffset>
+    <gcodeZoffset>-0.04</gcodeZoffset>
+    <useRaft>1</useRaft>
+    <raftExtruder>0</raftExtruder>
+    <raftTopLayers>3</raftTopLayers>
+    <raftBaseLayers>2</raftBaseLayers>
+    <raftOffset>3</raftOffset>
+    <raftSeparationDistance>0.14</raftSeparationDistance>
+    <raftTopInfill>100</raftTopInfill>
+    <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
+    <useSkirt>0</useSkirt>
+    <skirtExtruder>0</skirtExtruder>
+    <skirtLayers>2</skirtLayers>
+    <skirtOutlines>5</skirtOutlines>
+    <skirtOffset>0</skirtOffset>
+    <generateSupport>1</generateSupport>
 	<defaultSpeed>2100</defaultSpeed>
   </autoConfigureMaterial>
   
